@@ -1,0 +1,44 @@
+//variables
+$textalign:center;
+$paddingtit:25px;
+$fdirection:row;
+$color:gold;
+$radius:20px;
+$paddinglat:10px;
+$textlat:center;
+
+.titulo{
+    text-align:$textalign;
+    padding-left:$paddingtit;
+    flex-direction:$fdirection;
+
+}
+section{
+    background-color: $color;
+    border-radius: $radius;
+}
+.lateral{
+    background-color: $color;
+    border-radius: $radius;
+}
+.laterlText{
+    text-align:$textlat;
+    padding:$paddinglat;
+}
+ div p{
+    text-align: justify;
+    padding:10px;
+}
+.pFlex{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+}
+h3{
+    text-align: $textalign;
+}
+
+.logoNosotros{
+    height: 50px;
+    width: 50px;
+}

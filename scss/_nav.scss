@@ -1,0 +1,12 @@
+$color:rgb(181, 218, 235);
+$borde:10px;
+$fd:row;
+
+.navFlex{
+    display: flex;
+    flex-direction: $fd;
+    justify-content: flex-end;}
+.colorNav{
+        background-color:$color;
+        border-radius: $borde;
+    }   

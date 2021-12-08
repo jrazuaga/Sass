@@ -1,0 +1,50 @@
+.navFlex {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end; }
+
+.colorNav {
+  background-color: #b5daeb;
+  border-radius: 10px; }
+
+.footerFlex {
+  display: flex;
+  margin-top: 20px;
+  flex-direction: row;
+  justify-content: flex-end; }
+
+.colorFoot {
+  background-color: #cebebe; }
+
+.titulo {
+  text-align: center;
+  padding-left: 25px;
+  flex-direction: row; }
+
+section {
+  background-color: gold;
+  border-radius: 20px; }
+
+.lateral {
+  background-color: gold;
+  border-radius: 20px; }
+
+.laterlText {
+  text-align: center;
+  padding: 10px; }
+
+div p {
+  text-align: justify;
+  padding: 10px; }
+
+.pFlex {
+  display: flex;
+  flex-direction: column;
+  text-align: justify; }
+
+h3 {
+  text-align: center; }
+
+.logoNosotros {
+  height: 50px;
+  width: 50px; }

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title> SyS Estructuras </title>
+	<link rel="stylesheet" href="css/estilo.css">
+	<!--Animaciones-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  	/>
+	<link rel="stylesheet" href="/css/animate.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+</head>
+<body>
+	
+ <!-- Encabezado del sitio -->
+	<div class="container">
+		<div class="row">
+		 <div class="col-lg-12 col-xs-12">
+			<nav class="navbar navbar-expand-lg navbar-light bg-light">
+				<div class="container-fluid">
+				  <img src="./Assets/logo.jpg" class="logoNosotros" alt="logo">	
+				  <a class="navbar-brand" href="#">Inicio</a>
+				  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				  </button>
+				  <div class="collapse navbar-collapse navFlex" id="navbarNavDropdown">
+					<ul class="navbar-nav ">
+					  <li class="nav-item">
+						<a class="nav-link active" aria-current="page" href="./css/Pages/nosotros.html">Nosotros</a>
+					  </li>
+					  <li class="nav-item">
+						<a class="nav-link" href="#">Servicios</a>
+					  </li>
+					  <li class="nav-item">
+						<a class="nav-link" href="#">Ubicación</a>
+					  </li>
+					</ul>
+				  </div>
+				</div>
+			  </nav>
+		 </div>	
+		</div>
+		<!--Carrusel-->
+		<div class="row">
+			<div class="col-lg-12 col-xs-12">
+				<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+					<div class="carousel-inner">
+					  <div class="carousel-item active">
+						<img src="./Assets/header.jpg" class="d-block w-100" alt="portada">
+					  </div>
+					  <div class="carousel-item active">
+						<img src="./Assets/images3.jpg" class="d-block w-100" alt="portada2">
+					  </div>
+					  <div class="carousel-item active">
+						<img src="./Assets/av_imagen.jpg" class="d-block w-100" alt="portada3">
+					  </div>
+					</div>
+					<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+					  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					  <span class="visually-hidden">Previous</span>
+					</button>
+					<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+					  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+					  <span class="visually-hidden">Next</span>
+					</button>
+				  </div>
+
+			</div>
+
+		</div>
+	</div>
+	<main>
+	<div class="container"> 
+		<div class="row"> 
+			<div class="col-lg-12 col-xs-12">
+				<div class="titulo titulo__texto item__font ">
+					<h1 class="animate__animated animate__fadeInBottomLeft">S Y S Estructuras</h1>
+					</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-6 col-xs-12">
+				<section >
+					<div class="presentacion flex flex-center">
+						<article class="presentacion__fondo pFlex">
+							<p class="presentacion__texto item__color">Somos una empresa con gran proyección, que hoy nos estamos transformando en una
+							empresa referente en el ámbito Nacional.
+							</p>	
+							<p class="presentacion__texto item__color">Diseñamos proyectos totalmente equipados, de gran resistencia estructural, que se adaptan a sus necesidades específicas. 
+								Se ha fortalecido nuestra visión en los detalles, que al final de cada proyecto generan una gran diferencia. 
+							</p>	
+							<p class="presentacion__texto item__color">Contamos con stock permanente que nos permite tener el mejor abastecimiento del mercado.
+								
+								Es importante destacar que el transcurso de los años nos ha posicionado como una empresa líder en el rubro, y desde nuestro lugar honramos el lugar que ocupamos, brindando seguridad y pasión a nuestro trabajo y a nuestros clientes, quienes confían en nosotros día a día.
+							</p>
+						</article>
+					</div>
+				</section>
+
+			</div>
+			<div class="col-lg-6 col-xs-12" >
+				<aside class="lateral ">
+					<h3 class="lateral__tit item__color">INGENIERÍA</h3>
+					<p class="lateralText">Nuestra oficina técnica desarrolla ingeniería y cuenta con los últimos medios técnicos
+						 y con la experiencia necesaria para brindar respuestas a proyectos de distintas naturaleza 
+						 como acerías, naves industriales pesadas, puentes, edificios metálicos, centros de distribución,
+						  aeropuertos y un variado abanico de trayectoria
+					</p>
+					<img src="./Assets/G3.jpeg" alt="lateral" class="lateral__img img-fluid">
+		
+				</aside>
+			</div>
+		</div>
+	</div>
+	</main>
+<div class="container-fluid">
+	<footer class="row footerFlex">
+
+		<div class="col-lg-3 "><img src="./Assets/logo.jpg " class="logoNosotros" alt="logo"></div>
+		<div class ="col-lg-3">Copyright ©</div>
+		<div class ="col-lg-3">| Tel: 011-604897 |</div>
+		<div class ="col-lg-3">SySEstructuras@gmail.com</div>
+
+		
+	</footer>
+</div>
+ </div>
+<script src="js/wow.min.js"></script>
+<script>
+	new WOW().init();
+</script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+</body>
+</html>

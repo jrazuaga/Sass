@@ -1,0 +1,11 @@
+$top:20px;
+$just:flex-end;
+$color:rgb(206, 190, 190);
+.footerFlex{
+    display: flex;
+    margin-top: $top;
+    flex-direction: row;
+    justify-content:$just;
+}
+.colorFoot{
+    background-color:$color;}
