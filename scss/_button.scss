@@ -1,0 +1,11 @@
+.boton{
+    background-color: rgb(65, 216, 65);
+    color:green;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+.boton--borrar{
+    @extend .boton;
+    background-color: rgb(235, 113, 113);
+    color: red;
+}
